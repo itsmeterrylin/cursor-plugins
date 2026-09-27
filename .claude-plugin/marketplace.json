@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "itsmeterrylin-pstack",
+  "description": "pstack by poteto, adapted for Claude Code. Generated from upstream pstack/ by claude-code/adapt_pstack.py.",
+  "owner": {
+    "name": "Terry Lin",
+    "url": "https://github.com/itsmeterrylin"
+  },
+  "plugins": [
+    {
+      "name": "pstack",
+      "description": "Rigorous agent workflows: the poteto-mode router, 23 playbooks, and engineering principle skills.",
+      "source": "./pstack-claude",
+      "category": "productivity"
+    }
+  ]
+}
